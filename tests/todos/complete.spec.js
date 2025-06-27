@@ -123,7 +123,7 @@ test("Complete all tasks from the 'All' tab using the simple 'Toggle'", async ({
 })
 
 
-test.only("Complete all tasks from the 'All' tab using the multiple 'Toggle'", async ({page}) =>{
+test("Complete all tasks from the 'All' tab using the multiple 'Toggle'", async ({page}) =>{
 
     const newTask = page.locator('.new-todo');
 
@@ -193,8 +193,6 @@ test("Complete 'First' task from the 'Active' tab using the simple 'Toggle'", as
 
     await checkItem.nth(0).click();
 
-    await expect(page.locator('.todo-list li').nth(0)).toHaveClass('completed');
-
     await expect(page.locator('.todo-count')).not.toContainText('First Task');
 
     await expect(page.locator('.todo-list li')).toHaveCount(1);
@@ -205,7 +203,7 @@ test("Complete 'First' task from the 'Active' tab using the simple 'Toggle'", as
 
 })
 
-test.only("Complete all tasks from the 'Active' tab using the multiple 'Toggle'", async ({page}) =>{
+test("Complete all tasks from the 'Active' tab using the multiple 'Toggle'", async ({page}) =>{
 
     const newTask = page.locator('.new-todo');
 

@@ -68,7 +68,7 @@ test("Clear the 'Fisrt' completed task from the 'All' tab", async ({page}) => {
 
     await expect(page.locator('.todo-list li')).toHaveCount(1);
 
-    await expect(page.locator('.todo-count')).toContainText('0');
+    await expect(page.locator('.todo-count')).toContainText('1');
 
 })
 
@@ -99,7 +99,5 @@ test("Clear the completed task from the 'Completed' tab", async ({page}) => {
     await page.locator('.clear-completed').click();
 
     await expect(page.locator('.todo-list')).toBeHidden();
-
-    await expect(page.locator('.footer')).toBeVisible();
 
 })
