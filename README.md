@@ -14,12 +14,13 @@ The test cases emulate real user interactions to validate behavior, element stat
 - JavaScript
 - Node.js
 - Git
-- (Optional) GitHub Actions, Allure, HTML Reporter
+- GitHub Actions, Allure, HTML Reporter
 
 ---
 
 ## 📁 Project structure
 
+```
 todomvc
 ├── node_modules/
 ├── playwright-report/
@@ -36,25 +37,25 @@ todomvc
 ├── playwright.config.js
 ├── package.json
 └── README.md
-
+```
 
 ## 🚀 How to install and run the project
 
-```markdown
+```
 1. Clone the repository:
-```bash
-git clone https://github.com/tu-usuario/todomvc-playwright.git
+
+git clone git@github.com:berbelvaleria/todomvc-practice.git
 cd todomvc
 
 2. Install dependencies 
-npm install
+npx install playwright 
 
 3. Execute all the tests  
 npx playwright test
 
 4. View the HTMNL report 
 npx playwright show-report
-
+```
 
 
 ## ✅ Automated test cases
@@ -71,14 +72,10 @@ npx playwright show-report
 
 ## 🖼️ Report example
 
-![Playwright report HTML](./screenshots/playwright-report.png)
+[Playwright report HTML](https://github.com/berbelvaleria/todomvc-practice/blob/main/screenshots/playwright-report.png) 
 
 
 
 ## 👨‍💻 Learning
 
-```markdown
-This project was created as part of my transition from Manual QA to QA Automation, focusing on good practices, test structure, and modern testing tools like Playwright.
-
-
-
+This project was created as part of my transition from Manual QA to QA Automation, focusing on good practices, test structure, and modern testing tools like Playwright. 
