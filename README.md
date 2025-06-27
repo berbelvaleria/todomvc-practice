@@ -45,15 +45,18 @@ todomvc
 1. Clone the repository:
 
 git clone git@github.com:berbelvaleria/todomvc-practice.git
-cd todomvc
+cd todomvc-practice
 
 2. Install dependencies 
-npx install playwright 
+npm install  
 
 3. Execute all the tests  
+npx install playwright
+
+4. Execute all the tests  
 npx playwright test
 
-4. View the HTMNL report 
+5. View the HTMNL report 
 npx playwright show-report
 ```
 
