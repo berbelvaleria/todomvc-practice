@@ -24,6 +24,7 @@ The test cases emulate real user interactions to validate behavior, element stat
 todomvc
 ├── node_modules/
 ├── playwright-report/
+├── screenshots/
 ├── test-results/
 ├── tests/todos/
 │ ├── add.spec.js
