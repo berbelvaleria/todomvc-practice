@@ -51,13 +51,13 @@ cd todomvc-practice
 2. Install dependencies 
 npm install  
 
-3. Execute all the tests  
-npx install playwright
+3. Install Playwright (if not already installed) 
+npx playwright install
 
 4. Execute all the tests  
 npx playwright test
 
-5. View the HTMNL report 
+5. View the HTML report 
 npx playwright show-report
 ```
 
