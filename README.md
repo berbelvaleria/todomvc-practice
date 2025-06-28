@@ -76,7 +76,7 @@ npx playwright show-report
 
 ## 🖼️ Report example
 
-[Playwright report HTML](https://github.com/berbelvaleria/todomvc-practice/blob/main/screenshots/playwright-report.png) 
+[Playwright report HTML](https://github.com/berbelvaleria/todomvc-practice/blob/main/screenshots/report-v2.png) 
 
 
 
