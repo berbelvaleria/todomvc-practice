@@ -1,7 +1,7 @@
 const {test, expect} = require ('@playwright/test');
 const { text } = require('stream/consumers');
 
-// Investigate how to add multiple tasks all at once or how to do it more clear
+// Review add tasks 
 test("Add tasks", async ({page}) => {
 
     const newTask = page.locator('.new-todo');

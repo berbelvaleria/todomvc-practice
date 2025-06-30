@@ -1,6 +1,6 @@
 const {test, expect} = require ('@playwright/test')
 
-// Investigate how to add multiple tasks all at once or how to do it more clear
+// Review add tasks 
 test("Sort by 'Active' tasks, all incompleted", async ({page}) => {
 
     const newTask = page.locator('.new-todo');
