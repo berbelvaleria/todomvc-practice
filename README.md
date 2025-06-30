@@ -14,7 +14,7 @@ The test cases emulate real user interactions to validate behavior, element stat
 - JavaScript
 - Node.js
 - Git
-- GitHub Actions, Allure, HTML Reporter
+- GitHub Actions, HTML Reporter
 
 ---
 
