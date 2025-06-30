@@ -1,10 +1,10 @@
 # Playwright Automation - TodoMVC
 
-Automation scripts for the web application [TodoMVC](http://todomvc.com/) using Playwright and JavaScript.
+This personal learning project consists of automated test cases for the public web application [TodoMVC](http://todomvc.com/), using Playwright and JavaScript.
 
-This project includes full end-to-end user workflow scripts, as well as functional test cases focused on specific sections of the application, such as task creation, editing, filtering, and deletion.
+It includes both end-to-end flows and functional test cases focused on specific features such as task creation, editing, filtering, and deletion.
 
-The test cases emulate real user interactions to validate behavior, element states, and overall user experience in a modern web application.
+The goal was to practise modern automation tools, apply best practices in test structure, and simulate real user interactions in a realistic UI.
 
 ---
 
