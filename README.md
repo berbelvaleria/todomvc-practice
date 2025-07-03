@@ -6,6 +6,18 @@ It includes both end-to-end flows and functional test cases focused on specific 
 
 The goal was to practise modern automation tools, apply best practices in test structure, and simulate real user interactions in a realistic UI.
 
+
+
+## 👨‍💻 Learning Journey
+
+This is a personal learning project created as part of my transition from Manual QA to QA Automation.
+
+I'm currently deepening my knowledge of Playwright and JavaScript, and using this project to practice good testing practices, build a clean test structure, and explore modern tools like HTML reporting and CI/CD pipelines.
+
+It’s still a work in progress, and I plan to continue expanding the test coverage and improving the overall setup as I learn more.
+
+
+
 ---
 
 ## 🛠️ Technologies 
@@ -80,6 +92,14 @@ npx playwright show-report
 
 
 
-## 👨‍💻 Learning
+## 🚧 Work in Progress / Next Steps
 
-This project was created as part of my transition from Manual QA to QA Automation, focusing on good practices, test structure, and modern testing tools like Playwright. 
+🔜 Upcoming improvements:
+- Add negative and edge test cases
+- Implement fixtures and test hooks
+- Use custom test data
+- Integrate Allure or other reporting tools
+- Explore CI setup with GitHub Actions
+
+
+
