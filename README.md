@@ -26,7 +26,7 @@ It’s still a work in progress, and I plan to continue expanding the test cover
 - JavaScript
 - Node.js
 - Git
-- GitHub Actions, HTML Reporter
+- HTML Reporter
 
 ---
 
