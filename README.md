@@ -86,10 +86,35 @@ npx playwright show-report
 
 
 
-## 🖼️ Report example
+## 🖼️ Report example, how to install Allure, and how to generate the report
 
-[Playwright report HTML](https://github.com/berbelvaleria/todomvc-practice/blob/main/screenshots/report-v2.png) 
+[View an example report](https://github.com/berbelvaleria/todomvc-practice/blob/main/screenshots/report-v3.png)
 
+To use the Allure CLI locally, make sure you have the following installed:
+
+- Node.js (with npm)
+- Java JDK (OpenJDK)
+
+### 🛠️ Installation and usage
+
+```
+# 1. Install Allure dependencies
+npm install -D allure-playwright allure-commandline
+
+# 2. Install Java (macOS using Homebrew)
+brew install openjdk
+echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zprofile
+source ~/.zprofile 
+
+# 3. Run Playwright tests to generate results
+npx playwright test
+
+# 4. Generate the Allure report
+npx allure generate ./allure-results -o ./allure-report --clean
+
+# 5. Open the report in your browser
+npx allure open ./allure-report
+```
 
 
 ## 🚧 Work in Progress / Next Steps
